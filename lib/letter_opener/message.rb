@@ -57,7 +57,7 @@ module LetterOpener
     end
 
     def filepath
-      File.join(@location, "#{type}.html").sub('/mnt/c/', 'C://')
+      File.join(@location, "#{type}.html")
     end
 
     def content_type
